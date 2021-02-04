@@ -10,12 +10,12 @@ int m;
 
 for (m = 97; m <= 122; m++)
 {
-if (m != 101 || m != 113)
+if (m == 101 || m == 113)
 {
-putchar(m);
 }
 else
 {
+putchar(m);
 }
 }
 putchar('\n');
