@@ -18,8 +18,14 @@ else
 {
 putchar(m);
 putchar(n);
+if (m == 56 && n == 57)
+{
+}
+else
+{
 putchar(44);
 putchar(' ');
+}
 }
 }
 }
