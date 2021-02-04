@@ -10,7 +10,7 @@ int m;
 
 for (m = 0; m <= 9; m++)
 {
-printf("%d",m);
+printf("%d \n",m);
 }
 return (0);
 }
