@@ -13,6 +13,6 @@ for (m = 48; m <= 57; m++)
 putchar(m);
 putchar('\n');
 }
-putchar('\n');
+putchar(',');
 return (0);
 }
