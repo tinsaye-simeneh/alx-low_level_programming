@@ -8,17 +8,15 @@ int main(void)
 {
 int m;
 
-for (m = 97; m <= 100; m++)
+for (m = 97; m <= 122; m++)
+{
+if (m != 101 || m != 113)
 {
 putchar(m);
 }
-for (m = 102; m <= 112; m++)
+else
 {
-putchar(m);
 }
-for (m = 114; m <= 122; m++)
-{
-putchar(m);
 }
 putchar('\n');
 return (0);
